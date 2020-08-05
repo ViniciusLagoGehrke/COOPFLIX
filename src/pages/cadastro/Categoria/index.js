@@ -32,8 +32,11 @@ function CadastroCategoria() {
   // ============
 
   useEffect(() => {
-    if(window.location.href.includes('localhost')) {
-      const URL = 'http://localhost:8080/categorias'; 
+    console.log("alo");
+      const URL = window.location.hostname.includes('localhost')
+      ? 'htto://localhost:8080/categorias'
+      : 'https://ninetyflix.herokuapp.com/categorias';
+      console.log(URL);
       fetch(URL)
        .then(async (respostaDoServer) =>{
         if(respostaDoServer.ok) {
@@ -43,7 +46,6 @@ function CadastroCategoria() {
         }
         throw new Error('Não foi possível pegar os dados');
        })
-    }    
   }, []);
 
   return (
