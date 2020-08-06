@@ -3,7 +3,7 @@
     {
       "id": 1,
       "titulo": "CULTURA",
-      "cor": "green",
+      "cor": "#008246",
       "link_extra": {
         "text": "Melhor programação infantil",
         "url": "https://tvcultura.com.br/"
@@ -12,7 +12,7 @@
     {
       "id": 2,
       "titulo": "GLOBO",
-      "cor": "blue",
+      "cor": "#009ddb",
       "link_extra": {
         "text": "Grande e poderosa",
         "url": "https://redeglobo.globo.com/"
@@ -21,7 +21,7 @@
     {
       "id": 3,
       "titulo": "SBT",
-      "cor": "yellow",
+      "cor": "#a23936",
       "link_extra": {
         "text": "Popular",
         "url": "https://www.sbt.com.br/"
