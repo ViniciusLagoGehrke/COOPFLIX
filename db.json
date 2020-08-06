@@ -1,12 +1,117 @@
-[
-  {
-    "nome": "CULTURA",
-    "descricao": "melhor conteúdo infantil",
-    "cor": "green"
-  },
-  {
-    "nome": "GLOBO",
-    "descricao": "Grande e duvidosa",
-    "cor": "blue"
-  }
-]
+{
+  "categorias": [
+    {
+      "id": 1,
+      "titulo": "CULTURA",
+      "cor": "green",
+      "link_extra": {
+        "text": "Melhor programação infantil",
+        "url": "https://tvcultura.com.br/"
+      }
+    },
+    {
+      "id": 2,
+      "titulo": "GLOBO",
+      "cor": "blue",
+      "link_extra": {
+        "text": "Grande e poderosa",
+        "url": "https://redeglobo.globo.com/"
+      }
+    },
+    {
+      "id": 3,
+      "titulo": "SBT",
+      "cor": "yellow",
+      "link_extra": {
+        "text": "Popular",
+        "url": "https://www.sbt.com.br/"
+      }
+    },
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "categoriaId": 1,
+      "titulo": "Glub Glub - 1991",
+      "url": "https://www.youtube.com/watch?v=Nx7CoPYJabo"
+    },
+    {
+      "id": 2,
+      "categoriaId": 1,
+      "titulo": "Rá-Tim-Bum! - 1990",
+      "url": "https://www.youtube.com/watch?v=vvoAytmhhYw"
+    },
+    {
+      "id": 3,
+      "categoriaId": 1,
+      "titulo": "Mundo de Beakman",
+      "url": "https://www.youtube.com/watch?v=sxZ0U-50kgY"
+    },
+    {
+      "id": 4,
+      "categoriaId": 1,
+      "titulo": "Doug Funnie",
+      "url": "https://www.youtube.com/watch?v=i2tfC6OMbPk"
+    },
+    {
+      "id": 5,
+      "categoriaId": 1,
+      "titulo": "X-Tudo - 1992",
+      "url": "https://www.youtube.com/watch?v=b9eV5Zb24cE"
+    },
+    {
+      "id": 6,
+      "categoriaId": 1,
+      "titulo": "Mundo da Lua",
+      "url": "https://www.youtube.com/watch?v=8vwlsxsNy5Y"
+    },
+    {
+      "id": 7,
+      "categoriaId": 1,
+      "titulo": "As Aventuras de Tintim",
+      "url": "https://www.youtube.com/watch?v=U9T2XvMAfAo"
+    },
+    {
+      "id": 8,
+      "categoriaId": 1,
+      "titulo": "Cocoricó",
+      "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
+    },
+    {
+      "id": 9,
+      "categoriaId": 1,
+      "titulo": "Confissões de Adolescente",
+      "url": "https://www.youtube.com/watch?v=zvW8uOiiikk"
+    },
+    {
+      "id": 10,
+      "categoriaId": 1,
+      "titulo": "Babar",
+      "url": "https://www.youtube.com/watch?v=yaxQXYSp_vY"
+    },
+    {
+      "id": 11,
+      "categoriaId": 2,
+      "titulo": "Família Dinossauro",
+      "url": "https://www.youtube.com/watch?v=KcFVWYCQge8"
+    },
+    {
+      "id": 12,
+      "categoriaId": 2,
+      "titulo": "Capitão Planeta",
+      "url": "https://www.youtube.com/watch?v=jT7rNC4ZT5U&list=PL9jAJ4qssmOJR2JAxiQ9aSVRnH8590hhm"
+    },
+    {
+      "id": 13,
+      "categoriaId": 2,
+      "titulo": "TV Colosso",
+      "url": "https://www.youtube.com/watch?v=RwfsBQ1Emg4"
+    },
+    {
+      "id": 14,
+      "categoriaId": 3,
+      "titulo": "Disney CRUJ",
+      "url": "https://www.youtube.com/watch?v=EYT1yE6JlXs"
+    }
+  ]
+}
