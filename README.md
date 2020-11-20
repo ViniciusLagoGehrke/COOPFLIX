@@ -6,7 +6,7 @@ A NETFLIX alike website with Brazilian 90's children TV shows using Create React
 
 React routing, Hooks, React Components, Styled-components, PropTypes
 
-![Desktop Preview](desktop_preview.png)
+![Desktop Preview](desktop-preview.jpg)
 
 # Created during Imersão React da [Alura](https://www.alura.com.br/)
 
