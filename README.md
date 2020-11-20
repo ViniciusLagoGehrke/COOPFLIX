@@ -12,4 +12,4 @@ React routing, Hooks, React Components, Styled-components, PropTypes
 
 Please check the [live website](https://90flix.vercel.app/)
 
-OnPortfolio[https://front-end-portfolio.vercel.app/]
+[OnPortfolio](https://front-end-portfolio.vercel.app/)
